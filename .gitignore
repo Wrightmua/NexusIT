@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.local
+
+# Firebase config and other secrets — see .env.example
+.env
+.env.*
+!.env.example
+!.env.demo
+
+# Original single-file version (contains the live Firebase config)
+NexusIT_IT_Support_Platform.html
+
+# Exports can contain real staff and device records
+*.xlsx
+*.csv
+
+.DS_Store
+Thumbs.db
+.claude/
+.vscode/
+.idea/
+npm-debug.log*
